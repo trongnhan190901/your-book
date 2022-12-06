@@ -19,6 +19,9 @@
     "plugins": ["prettier", "react", "@typescript-eslint"],
     "rules": {
         "indent": ["error", 4],
+        "no-undef": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "single"],
         "semi": ["error", "always"]
